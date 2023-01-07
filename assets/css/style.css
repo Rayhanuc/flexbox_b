@@ -16,7 +16,6 @@ body {
 
 .item-1 {
 	background-color: #b4bf35;
-	flex-basis: 400px;
 }
 
 .item-2 {
@@ -25,6 +24,7 @@ body {
 
 .item-3 {
 	background-color: #1c4c56; 
+	flex: 1;
 }
 
 .item-4 {
