@@ -4,7 +4,10 @@ body {
 
 .container {
 	border: 6px solid rgb(130, 30, 87);
-	display: flex;	
+	display: flex;
+	height: 400px;
+	/* align-items: stretch; */
+	/* align-items: flex-end; */
 }
 
 .flex-item {
@@ -16,23 +19,28 @@ body {
 
 .item-1 {
 	background-color: #b4bf35;
+	align-self: flex-start;
 }
 
 .item-2 {
 	background-color: #b95f21;
+	align-self: flex-end;
+
 }
 
 .item-3 {
-	background-color: #1c4c56; 
-	flex: 1;
+	background-color: #1c4c56;
+	align-self: flex-start;
 }
 
 .item-4 {
 	background-color: #cfb276;
+	align-self: stretch;
 }
 
 .item-5 {
 	background-color: #6b0803;
+	/* align-self: auto;  */
 }
 
 .item-6 {
